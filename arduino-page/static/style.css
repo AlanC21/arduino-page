@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar-custom {
+  background-color: #008184;
+}
+
+.navbar-custom .navbar-brand {
+  color: #fff;
+}
+
+.navbar-nav .nav-link {
+  color: #fff;
+}
+
+.titulo {
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+  border: 3px solid #008184;
+}
+
+.subtitulo {
+  text-align: center;
+  padding: 5px;
+}
+
+.column-text {
+  text-align: center;
+}
+
+.column-img {
+  height: auto;
+  width: 600px;
+}
+
+.hero {
+  height: 65vh;
+  background-color: #008184;
+  text-align: center;
+  color: white;
+  padding-top: 10px;
+}
+
+.subtitulo-hero {
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+  border: 3px solid #fff;
+}
+
+.hero-text {
+  margin: 5%;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.card-custom {
+  margin-top: 10px;
+  width: 18rem;
+  margin-bottom: 10px;
+}
+
+.container-custom {
+  margin-top: 25px;
+  background-color: #008184;
+  border-radius: 20px;
+  margin-right: 0;
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title></title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="style.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+
+<body>
+  <!-- Image and text -->
+  <nav class="navbar navbar-expand-lg navbar-dark navbar-custom">
+    <a class="navbar-brand" href="#">
+      <img src="arduino.svg" width="30" height="30" class="d-inline-block align-top arduino-img" type="img/svg">
+      Arduino
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="placas.html">Diferentes tipos de placas</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container-fluid">
+    <h1 class="titulo">Todo sobre Arduino</h1>
+    <h2 class="subtitulo">¿Que es Arduino?</h2>
+    <div class="row">
+      <div class="col">
+        <img src="ArduinoUno.svg" alt="Arduino-Board" class="column-img">
+      </div>
+      <div class="col">
+        <p class="column-text"><b>Arduino es una plataforma de creación de electrónica de código abierto</b>, la cual
+          está basada en hardware y software libre, flexible y fácil de utilizar para los creadores y desarrolladores.
+          Esta plataforma permite crear diferentes tipos de microordenadores de una sola placa a los que la comunidad de
+          creadores puede darles diferentes tipos de uso.
+
+          Para poder entender este concepto, primero vas a tener que entender los conceptos de hardware libre y el
+          software libre. El hardware libre son los dispositivos cuyas especificaciones y diagramas son de acceso
+          público, de manera que cualquiera puede replicarlos. Esto quiere decir que Arduino ofrece las bases <b>para
+            que cualquier otra persona o empresa pueda crear sus propias placas</b>, pudiendo ser diferentes entre ellas
+          pero igualmente funcionales al partir de la misma base.
+
+          El software libre son los programas informáticos <b>cuyo código es accesible por cualquiera</b> para que quien
+          quiera pueda utilizarlo y modificarlo. Arduino ofrece la plataforma Arduino IDE (Entorno de Desarrollo
+          Integrado), que es un entorno de programación con el que cualquiera puede crear aplicaciones para las placas
+          Arduino, de manera que se les puede dar todo tipo de utilidades.
+
+          El proyecto nació en 2003, cuando varios estudiantes del Instituto de Diseño Interactivo de Ivrea, Italia, con
+          el fin de facilitar el acceso y uso de la electrónico y programación. Lo hicieron para que los estudiantes de
+          electrónica tuviesen una alternativa más económica a las populares BASIC Stamp, unas placas que por aquel
+          entonces valían más de cien dólares, y que no todos se podían permitir.
+
+          El resultado fue Arduino, una placa con todos los elementos necesarios para <b>conectar periféricos a las
+            entradas y salidas de un microcontrolador</b>, y que puede ser programada tanto en Windows como macOS y
+          GNU/Linux. Un proyecto que promueve la filosofía 'learning by doing', que viene a querer decir que la mejor
+          manera de aprender es cacharreando.</p>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid hero">
+    <h2 class="subtitulo-hero">Cómo funciona Arduino</h2>
+    <div class="row">
+      <div class="col">
+        <p class="hero-text">El Arduino es una placa basada en un microcontrolador ATMEL. Los microcontroladores son <b>circuitos integrados en los que se pueden grabar instrucciones</b>, las cuales las escribes con el lenguaje de programación que puedes utilizar en el entorno Arduino IDE. Estas instrucciones permiten crear programas que interactúan con los circuitos de la placa.
+
+        El microcontrolador de Arduino posee lo que se llama una <b>interfaz de entrada</b>, que es una conexión en la que podemos conectar en la placa diferentes tipos de periféricos. La información de estos periféricos que conectes se trasladará al microcontrolador, el cual se encargará de procesar los datos que le lleguen a través de ellos.
+          
+        El tipo de periféricos que puedas utilizar para enviar datos al microcontrolador depende en gran medida de qué uso le estés pensando dar. Pueden ser cámaras para obtener imágenes, teclados para introducir datos, o diferentes tipos de sensores.
+          
+        También cuenta con una <b>interfaz de salida</b>, que es la que se encarga de llevar la información que se ha procesado en el Arduino a otros periféricos. Estos periféricos pueden ser pantallas o altavoces en los que reproducir los datos procesados, pero también pueden ser otras placas o controladores.</p>
+      </div>
+      <div class="col">
+        <img src="Arduino-Controller-Motor.svg" alt="" class="hero-img">
+      </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+</body>
+</html>
